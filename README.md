@@ -1,1 +1,2 @@
 # Detecting-Lines-Computer-Vision
+After preprocessing the image data, two methods for detecting prominant lines in an image were used: RANSAC and Hough Transforms. RANSAC is a robust line detection algorithm which iteratively creates line models using a subset of points, where every model is evaluated for the total count of inlier points. Hough transforms are another type of line detection algorithm using a voting procedure carried out in a parameter space, from which object candidates are obtained as local maxima in an accumulator.
